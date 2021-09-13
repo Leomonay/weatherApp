@@ -1,0 +1,14 @@
+.ciudad{
+    align-content:center ;
+}
+.container{
+    text-align: justify;
+    width: fit-content;
+    background: linear-gradient(45deg, lightyellow, silver);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.container>h2{
+    text-align: center;
+}

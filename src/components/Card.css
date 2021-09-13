@@ -1,0 +1,49 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  box-shadow: 2px 2px 5px silver;
+  align-items: center;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.row, .card-title{
+  background: rgb(255,255,255,0.5);
+  border-radius: .5rem;
+  padding: 5px ;
+}
+.card-title{
+  color: navy
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.i01d{background-image: url('../img/clearSkyDay.jpg')}
+.i01n{background-image: url('../img/clearSkyNight.jpg')}
+.i02d{background-image: url('../img/fewCloudsDay.jpg')}
+.i02n{background-image: url('../img/fewCloudsNight.jpg')}
+.i03d{background-image: url('../img/scatteredCloudsDay.jpg')}
+.i03n{background-image: url('../img/scatteredCloudsNight.jpg')}
+.i04d{background-image: url('../img/brokencloudsDay.jpg')}
+.i04n{background-image: url('../img/brokencloudsNight.jpg')}
+.i09d{background-image: url('../img/showerRainDay.jpg')}
+.i09n{background-image: url('../img/showerRainNight.jpg')}
+.i10d{background-image: url('../img/rainyDay.jpg')}
+.i10n{background-image: url('../img/rainyNight.jpg')}
+.i11d{background-image: url('../img/thunderstormDay.jpg')}
+.i11n{background-image: url('../img/thunderstormNight.jpg')}
+.i13d{background-image: url('../img/snowDay.jpg')}
+.i13n{background-image: url('../img/snowNight.jpg')}
+.i50d{background-image: url('../img/mistDay.jpg')}
+.i50n{background-image: url('../img/mistNight.jpg')}
